@@ -5,3 +5,39 @@ Version: 1.0
 Description: I am junior web developer and this is my portfolio website
 Author: Ingrida Kutriene
 */
+
+body {
+width: 100%;
+/*  background: linear-gradient(
+      to right,
+      rgb(4, 17, 42)  0%,
+      rgb(27, 44, 74) 50%,
+      rgb(27, 44, 74) 80%,
+      rgb(4, 17, 42) 100%
+    ); */
+}
+
+main {
+    margin-top: 10% !important;
+    width: 60%;
+    margin: 0 auto;
+   
+}
+
+#mainPost {
+    margin: 0 auto;
+    width: 70%;
+    height: 600px;
+/*     background: linear-gradient(
+        to left,
+        paleturquoise  0%,
+        paleturquoise  50%,
+        rgb(142, 212, 212) 50%,
+        rgb(142, 212, 212) 100%
+        
+      ); */
+}
+
+#middleLine {
+
+}

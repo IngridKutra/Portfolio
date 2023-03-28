@@ -3,18 +3,17 @@ Theme Name: Portfolio
 Text Domain: ingridkutra
 Version: 1.0
 Description: I am junior web developer and this is my portfolio website
-Author: Ingrida Kutriene
+Author: Ingrid Kutra
 */
 
+
 body {
-width: 100%;
-/*  background: linear-gradient(
-      to right,
-      rgb(4, 17, 42)  0%,
-      rgb(27, 44, 74) 50%,
-      rgb(27, 44, 74) 80%,
-      rgb(4, 17, 42) 100%
-    ); */
+    margin-top: 0px !important;
+    background-repeat: no-repeat !important; 
+    background: linear-gradient(
+      rgb(211, 161, 173)  ,
+      rgb(255,209,220) 
+    ); 
 }
 
 main {

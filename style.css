@@ -30,13 +30,14 @@ main {
     margin: 0 auto;
     width: 70%;
     height: 600px;
-/*     background: linear-gradient(
-        to left,
-        paleturquoise  0%,
-        paleturquoise  50%,
-        rgb(142, 212, 212) 50%,
-        rgb(142, 212, 212) 100%
-        
-      ); */
+}
+
+.left_corner {
+  border-left-style: solid;
+  border-left-width: 2px;
+}
+
+.right_corner {
+
 }
 

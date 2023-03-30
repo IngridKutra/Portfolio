@@ -70,9 +70,11 @@
          y="99.44">web developer</tspan></text>
   </g>
 </svg></h1>
-
-<?php dynamic_sidebar( 'new-widget-area' ); ?></div>
-
+<div class="front_page_widget">
+<div><?php dynamic_sidebar( 'new-widget-area' ); ?></div>
+<div class="just_a_line"></div>
+</div>
+</div>
 
 <div class="right_corner"></div>
 

@@ -195,6 +195,15 @@ float: right;
 
 footer {
   color: #144f53;
+  width: 100%;
+  height: auto;
+  text-align: end;
+  bottom: 0px;
+  position: fixed;
+}
+
+footer p {
+  margin-right: 10px;
 }
 
 @media (max-width:801px)  {  }
@@ -203,6 +212,9 @@ footer {
 
 @media (max-width:600px)  { 
 
+  h5{
+    margin-top: 25%;
+  }
  }
 
 @media (max-width:480px)  { 
@@ -246,5 +258,14 @@ footer {
   h5 span {
     justify-content: center;
     display: flex;
+  }
+
+  footer {
+    color: #144f53;
+    width: 100%;
+    height: auto;
+    text-align: center !important;
+    bottom: 0px;
+    position: fixed;
   }
  }

@@ -73,6 +73,9 @@
 <div class="front_page_widget">
 <div><?php dynamic_sidebar( 'new-widget-area' ); ?></div>
 <div class="just_a_line"></div>
+	<div class="side_menu">
+		<?php wp_nav_menu( 'main menu' ); ?>
+	</div>
 </div>
 </div>
 
@@ -89,7 +92,9 @@ if ( have_posts() ) :
 endif;
 ?>
 
+	
 </div>
+	
 </main>
 
 

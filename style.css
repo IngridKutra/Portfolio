@@ -12,6 +12,7 @@ html {
 
 body {
     margin-top: 0px !important;
+	padding: 0;
     background-repeat: no-repeat !important; 
     background: linear-gradient(
       rgb(211, 161, 173)  ,
@@ -72,6 +73,7 @@ main {
   top: 20%;
   position: fixed;
   margin-left: 15%;
+  color: #144f53;
 }
 
 svg {
@@ -193,6 +195,46 @@ float: right;
   color: #144f53;
 }
 
+.menu li {
+	margin-bottom: 35%;
+	list-style: none;
+	width: 100px;
+}
+
+.menu li a {
+	color: #144f53 !important;
+	text-decoration: none !important;
+	font-size: large;
+    font-weight: 500;
+	
+}
+
+.menu li a:hover:before {
+	color: #1a656a !important;
+	letter-spacing: 1px;
+	transition: 0.4s;
+}
+
+.menu li a:hover {
+	color: #1a656a !important;
+	letter-spacing: 1px;
+	transition: 0.4s;
+}
+
+
+/*skills page*/
+	
+ .fg-simple_portfolio {
+		padding-top: 10% !important;
+	}
+
+ .back_icon {
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+ }
+
+
 footer {
   color: #144f53;
   width: 100%;
@@ -206,11 +248,56 @@ footer p {
   margin-right: 10px;
 }
 
-@media (max-width:801px)  {  }
+@media (max-width:860px)  {  
+.front_page_widget {
+    display: flex;
+	width: 140%;
+	}
+	
+	h5 span {
+		 width: 100%;
+		justify-content: center;
+		display: flex;
+	}	
+	
+	h5  {
+	position: fixed;
+    width: 80%;
 
+	}
+}
 
-
-@media (max-width:600px)  { 
+@media (max-width:764px)  { 
+	
+	  .navbar-collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .navbar-nav {
+    flex-direction: row !important;
+  }
+  
+  .navbar-nav .nav-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+	
+	#menu-extra-menu {
+	display: flex;
+    align-items: flex-end;
+	}
+	
+	#menu-extra-menu li {
+	font-size: medium !important;
+    width: 50px;
+}
+	
+	
+	.side_menu {
+		display: none;
+	}
 
   h5{
     margin-top: 25%;
@@ -218,16 +305,27 @@ footer p {
  }
 
 @media (max-width:480px)  { 
+	
+	.side_menu {
+		display: none;
+	}
 
   .navbar-expand{
     height: 10px !important;
     }
   
   .all_text {
-    width: 70%;
+    width: 90%;
     top: 20%;
     margin-left: 10%;
+	margin-top: -20%;
+	position: relative;
   }
+	
+	.front_page_widget {
+    display: flex;
+    width: 100%;
+	}
 
   #block-9 {
     width: 90%;
@@ -246,13 +344,14 @@ footer p {
   .left_corner {
     height: 150px;
     width: 150px;
-    margin-top: 10%;
   }
 
   h5 {
     display: flex;
     flex-direction: column;
     margin-top: 70%;
+	width: 100%;
+    align-items: flex-end;
   }
 
   h5 span {
@@ -268,4 +367,16 @@ footer p {
     bottom: 0px;
     position: fixed;
   }
+	
+  .menu li {
+	margin-bottom: 35%;
+	list-style: none;
+	width: 100px;
+}
+	
+	/*skills page*/
+	
+ .fg-simple_portfolio {
+		padding-top: 20% !important;
+	}
  }

@@ -10,7 +10,13 @@
 	
     <title>web developer - Ingrid Kutra</title>
     <?php wp_head(); ?>
-
+<script>
+  $(document).ready(function() {
+  $(".navbar-toggler").click(function() {
+    $(this).toggleClass("active");
+  });
+});
+</script>
 </head>
 <header>
 <nav class="navbar navbar-expand-md navbar-light">
@@ -19,16 +25,11 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <div class="ms-auto">
+      <div class="ms-auto" id="menu_list">
         <ul class="navbar-nav d-md-none " id="navBar">
-          <li class="nav-item ms-auto">
-            <a class="nav-link" href="#"><?php wp_nav_menu( 'main menu' ); ?></a>
-          </li>
+			<div class="just_a_line"></div>
           <li class="nav-item">
-            <a class="nav-link ms-auto" href="#"><?php dynamic_sidebar( 'github_icon' ); ?></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ms-auto" href="#"><?php dynamic_sidebar( 'email_icon' ); ?></a>
+            <a ><?php dynamic_sidebar( 'Hamburgare_menu' ); ?></a>
           </li>
         </ul>
         <ul class="navbar-nav d-none d-md-flex">

@@ -1,0 +1,353 @@
+/*Styling för att göra sidan en One-Page Landing Page*/
+body{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    background: rgb(245 245 245);
+  }
+
+  header {
+    background: rgb(211, 161, 173);
+  }
+
+footer {
+	position: static;
+    height: 5rem;
+    width: 100%;
+}
+
+ul svg {
+	display: none;
+}
+
+h4 i {
+	color: #d3a1ad;
+}
+
+.col-md-6 p {
+	text-align: justify;
+}
+  
+
+  .all_text_landing_page{
+    max-width: 40%;
+	  display: flex;
+  flex-direction: column;
+  top: 20%;
+  position: absolute;
+  margin-left: 15%;
+  color: #144f53;
+  }
+
+div.wpforms-container-full {
+	width: 90% !important;
+}
+
+button#wpforms-submit-123 {
+	background-color: #144f53 !important;
+}
+  
+
+  #hero{
+    height: 30rem;
+    background-repeat: no-repeat !important; 
+    background: linear-gradient(
+        rgb(211, 161, 173)  ,
+        rgb(253 224 231) 
+      ); 
+    color: white;
+   display: flex;
+  }
+
+  .left_corner {
+    margin-left: 10%;
+    height: 450px;
+  }
+
+.just_a_line {
+	    margin-left: 5px;
+}
+
+.form {
+	display: flex;
+    align-content: flex-end;
+    width: 25%;
+    position: absolute;
+    right: 0px;
+    margin-right: 5%;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+div.wpforms-container-full {
+	width: 100%;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-head-container {
+	    border-bottom: 2px solid;
+    border-image: linear-gradient(45deg, gold, deeppink) 1;
+    animation: huerotate 15s infinite linear;
+    filter: hue-rotate(360deg);
+}
+
+  h1{
+    margin-top: 2rem;
+  }
+  
+
+  .btn-primary{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+  }
+  
+
+  #work{
+    background-repeat: no-repeat !important;
+    background: linear-gradien rgb(253 224 231), ( rgb(211, 161, 173) );
+    background: linear-gradient( rgb(253 224 231), rgb(211, 161, 173));
+    height: max-content;
+    display: flex;
+	margin-top: 10%;
+  }
+
+  .work-title {
+	  color: black;
+	padding-top: 5%;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(45deg, gold, deeppink) 1;
+    animation: huerotate 15s infinite linear;
+    filter: hue-rotate(360deg);
+    padding-bottom: 10%;
+  }
+
+#work .col-md-5 {
+	width: 80% !important;
+	 margin: 0 auto;
+    padding-top: 5%;
+
+}
+
+#work p a{
+	font-weight: 700;
+}
+
+
+.col-md-5 {
+   width: 18%;
+    font-size: small;
+    margin-left: 5%;
+    padding-top: 3%;
+	  color: #144f53;
+}
+
+h4 {
+	font-size: 1.2rem;
+}
+
+  #foogallery-gallery-84 .fg-image {
+    width: 60rem !important;
+
+  }
+
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+  
+
+  form{
+    margin-top: 2rem;
+  }
+  
+
+  button{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+  }
+
+.projects-text-block {
+    display: flex;
+    align-content: flex-end;
+    width: 35%;
+    right: 0px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    border-radius: 4px;
+    flex-direction: column;
+    margin-left: 5%;
+	margin-top: -7%;
+	height: max-content;
+	
+}
+
+.projects-text-block p {
+	    text-align: justify;
+    padding-top: 10%;
+	
+}
+
+#skills {
+	background: linear-gradient( rgb(211, 161, 173) , rgb(253 224 231) );
+    margin-top: 15%;
+}
+
+.skills-text-block {
+	  display: flex;
+    align-content: flex-end;
+    width: 25%;
+    position: absolute;
+    right: 0px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    border-radius: 4px;
+    flex-direction: column;
+    margin-right: 5%;
+    margin-top: -7%;
+    height: max-content;
+
+}
+
+.skills-text-block p {
+	   text-align: justify;
+    padding-top: 10%;
+		
+}
+
+  .skills-title {
+	padding-top: 5%;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(45deg, gold, deeppink) 1;
+    animation: huerotate 15s infinite linear;
+    filter: hue-rotate(360deg);
+    padding-bottom: 10%;
+  }
+
+.skills-gallery {
+	width: 70% !important;
+    margin-left: 0px;
+    padding-top: 7%;
+	margin-bottom: 5%;
+}
+
+.show-form {
+  display: none; /* hide by default */
+}
+
+	a {
+			color: black;
+    text-decoration: none;
+	}
+
+
+@media (max-width:860px)  {  
+
+		.skills-text-block p {
+			display: none;
+	}
+	
+	
+		.projects-text-block p {
+		display: none;
+	}
+	
+	.form {
+ 	 width: 90%;
+		display: none;
+	
+}
+	
+.form.show {
+	display: block;
+	z-index: 2;
+}
+
+.show-form {
+    color: #144f53;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border: 1px solid #144f53;
+    margin-top: 30%;
+    margin-left: 25%;
+    height: max-content;
+	z-index: 2;
+}
+
+.hide-form {
+  position: absolute;
+  right: 10%;
+  background-color: #f5f5f5;
+  border: none;
+  color: #144f53;
+  font-size: 16px;
+  padding: 4px 10px;
+	z-index: 3;
+}
+	
+.col-md-5 {
+		width: 25%;
+	}
+	
+	.skills-gallery {
+		width: 100% !important;align-content
+	}
+}
+
+
+@media (max-width:480px)  { 
+	#hero {
+		    display: flex;
+   			 flex-direction: column !important;
+	}
+	
+	.all_text_landing_page {
+         max-width: 80% !important;
+    	position: absolute;
+}
+	
+	.show-form {
+		margin: 0 auto;
+    margin-bottom: 5%;
+	}
+		
+.col-md-5 {
+	width: 80% !important;
+	 margin: 0 auto;
+    padding-top: 5%;
+}
+	
+	#work {
+		flex-direction: column;
+	}
+	
+
+.fg-default.fg-gutter-25 {
+    display: flex;
+    flex-direction: column;
+	}
+	
+	.fg-default.fg-m-col2.fg-gutter-25 .fg-item {
+		min-width: 100%;
+	}
+	
+	.fg-item fg-type-image fg-loaded{
+		min-width: 100%;
+	}
+	
+	.skills-gallery {
+    width: 100% !important;
+	}
+	
+	#foogallery-gallery-70.fg-simple_portfolio .fg-item {
+    flex-basis: 80px !Important;
+ }
+	
+
+
+}

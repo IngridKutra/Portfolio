@@ -7,7 +7,7 @@ Author: Ingrid Kutra
 */
 
 html {
-  height: -webkit-fill-available;
+  
 }
 
 body {
@@ -18,6 +18,7 @@ body {
       rgb(211, 161, 173)  ,
       rgb(255,209,220) 
     ); 
+	min-height: 100vh;
 }
 
 main {
@@ -30,8 +31,8 @@ main {
 
 #mainPost {
     margin: 0 auto;
-    width: 70%;
-    height: 600px;
+    width: 80%;
+    min-height: 100vh;
 }
 
 .left_corner {
@@ -221,8 +222,6 @@ float: right;
 	transition: 0.4s;
 }
 
-
-/*skills page*/
 	
  .fg-simple_portfolio {
 		padding-top: 10% !important;
@@ -241,12 +240,63 @@ footer {
   height: auto;
   text-align: end;
   bottom: 0px;
-  position: fixed;
+  position: static;
 }
 
 footer p {
   margin-right: 10px;
 }
+
+.fg-default.fg-gutter-25 {
+	margin-bottom: 25px !important;
+}
+
+.skills-text-block 
+ {
+	display: flex;
+    width: 80%;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    border-radius: 4px;
+    flex-direction: column;
+    margin-left: 10%;
+    height: max-content;
+}
+
+.work-text-block {
+	display: flex;
+    width: 80%;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    border-radius: 4px;
+    flex-direction: column;
+    margin-left: 10%;
+    height: max-content;
+	margin-bottom: 4%;
+}
+
+ .skills-title  {
+	  color: black;
+	padding-top: 2%;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(45deg, gold, deeppink) 1;
+    animation: huerotate 15s infinite linear;
+    filter: hue-rotate(360deg);
+    padding-bottom: 2%;
+  }
+
+ .work-title {
+	  color: black;
+	padding-top: 2%;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(45deg, gold, deeppink) 1;
+    animation: huerotate 15s infinite linear;
+    filter: hue-rotate(360deg);
+    padding-bottom: 2%;
+  }
+
 
 @media (max-width:860px)  {  
 .front_page_widget {
@@ -265,6 +315,7 @@ footer p {
     width: 80%;
 
 	}
+	
 }
 
 @media (max-width:764px)  { 
@@ -284,12 +335,12 @@ footer p {
     padding-right: 1rem;
   }
 	
-	#menu-extra-menu {
+	#menu-mani-menu {
 	display: flex;
     align-items: flex-end;
 	}
 	
-	#menu-extra-menu li {
+	#menu-mani-menu li {
 	font-size: medium !important;
     width: 50px;
 }
@@ -302,7 +353,88 @@ footer p {
   h5{
     margin-top: 25%;
   }
- }
+
+  /* Hamburger icon */
+button {
+  z-index: 9999;
+}
+
+
+/* Navbar collapse */
+.navbar-collapse {
+  position: fixed;
+  z-index:2;
+  top: 0;
+  left: -100%;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  transition: all 0.5s ease;
+    background-repeat: no-repeat !important; 
+    background: linear-gradient(
+      rgb(211, 161, 173)  ,
+      rgb(255,209,220) 
+    ); 
+}
+	
+.navbar-toggler .navbar-toggler-icon {
+  transition-delay: 0.6s;
+}
+
+.navbar-toggler.active .navbar-toggler-icon {
+  background-image: url('data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 30 30\'%3e%3cpath stroke=\'rgba(0, 0, 0, 0.55)\' stroke-linecap=\'round\' stroke-miterlimit=\'10\' stroke-width=\'2\' d=\'M7 7L23 23M23 7L7 23\'/%3e%3c/svg%3e');
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.navbar-toggler.active {
+  border: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-collapse.show {
+  left: 0;
+}
+
+#menu_list {
+  margin: 0 auto;
+  margin-top: -80%;
+}
+
+.menu_li {
+  margin-bottom: 20% !important;
+}
+
+.menu li a {
+ font-size: x-large;
+ font-weight: 400;
+}
+	
+.email_icon_hamburgare {
+		margin-left: 20% !important;
+	}
+	
+	main {
+		margin-bottom: 30% !important;
+	}
+	
+	#mainPost {
+		width: 100%;
+	}
+	
+	.back_icon {
+		padding-left: 10px;
+	}
+
+  }
+
+
+
 
 @media (max-width:480px)  { 
 	
@@ -322,6 +454,23 @@ footer p {
 	position: relative;
   }
 	
+.skills-text-block {
+    width: 100%;
+    height: max-content;
+    text-align: justify; 
+	margin: 0 auto;
+	}
+	
+.work-text-block {
+    width: 100%;
+    height: max-content;
+    text-align: justify; 
+	margin: 0 auto;
+	}
+	
+.fg-default.fg-m-col2.fg-gutter-25 .fg-item{
+		min-width: 100%;
+	}
 	.front_page_widget {
     display: flex;
     width: 100%;
@@ -349,7 +498,7 @@ footer p {
   h5 {
     display: flex;
     flex-direction: column;
-    margin-top: 70%;
+    margin-top: 20%;
 	width: 100%;
     align-items: flex-end;
   }
@@ -358,23 +507,18 @@ footer p {
     justify-content: center;
     display: flex;
   }
-
-  footer {
-    color: #144f53;
-    width: 100%;
-    height: auto;
-    text-align: center !important;
-    bottom: 0px;
-    position: fixed;
-  }
 	
   .menu li {
-	margin-bottom: 35%;
+    margin-bottom: 20%;
 	list-style: none;
 	width: 100px;
 }
 	
-	/*skills page*/
+	.fg-default.fg-gutter-25 {
+    padding-left: 0px;
+    margin-bottom: -25px;
+    margin-top: 10%;
+	}
 	
  .fg-simple_portfolio {
 		padding-top: 20% !important;

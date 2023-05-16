@@ -23,6 +23,7 @@ if ( have_posts() ) :
     endwhile;
 endif;
 ?>
+	
 </div>
 
 </main>

@@ -14,28 +14,7 @@ Welcome to my portfolio! This project contains information about my background, 
 
 I am a software developer with experience in web development, data analysis, and machine learning. I enjoy solving problems and building useful tools that help people work more efficiently. I have a College degree in Web development from the IT-Högskola in Stockholm, Sweden and have worked at several startups and tech companies.
 
-## Skills
-
-- JavaScript
-- HTML/CSS
-- React
-- Wordpress CMS
-- PHP
-- Redux
-- Next.js
-- WooCoomerce
-- Responsive Design
-
-
-## Projects
-
-Here are some of my favorite projects that I have worked on:
-
-- **Project 1:** A web app that helps users find the best hiking trails in their area based on their preferences (built with React and Node.js).
-- **Project 2:** A machine learning model that predicts the likelihood of a customer churning from a subscription service (built with Python and TensorFlow).
-- **Project 3:** An analysis of sales data for a retail company, including recommendations for optimizing inventory and pricing (built with Python and SQL).
-
-You can find more information about these projects, as well as others, on my [portfolio website](https://www.ingridkutra.com/projects).
+You can find more information about my projects, as well as others, on my [portfolio website](https://www.ingridkutra.com/).
 
 ## Contact
 

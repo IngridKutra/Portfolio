@@ -1,6 +1,7 @@
 # Ingrid Kutra's Portfolio
 
 Welcome to my portfolio! This project contains information about my background, skills, and projects. It is meant to showcase my work and help me connect with potential clients and employers.
+![image](https://github.com/IngridKutra/Portfolio/assets/122442701/3a279444-34a5-4270-a0c0-d9ee00c04ddd)
 
 ## Table of Contents
 
